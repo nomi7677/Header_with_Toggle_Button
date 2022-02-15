@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'make_header';
+  display=true;
+
+toggle(){
+  this.display=!this.display;
+}
 }
